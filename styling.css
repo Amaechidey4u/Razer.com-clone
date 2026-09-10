@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font:   sans-serif;
+}
+body {
+  background-color: #111;
+  overflow-x: hidden;
+}
+header {
+  background-color: black;
+  border-bottom: 1px solid green;
+  display: flex;
+  position: fixed;
+  justify-content:space-between;
+  align-items: center;
+  height: 60px;
+  list-style-type: none;
+  font-family: inter, sans-serif;
+  font-weight: 500px;
+  background-color: #111;
+  width: 100%;
+  padding: 0 10%;
+}
+.drop-down {
+  display: none;
+}
+.logo-img {
+  height: auto;
+  width: 35px;
+}
+.logo-img2 {
+  height: auto;
+  width: 35px;
+  display: none;
+}
+.nav-list a {
+  color: #bbb;
+  text-decoration: none;
+}
+.nav-list a:hover {
+  color: #fff;
+}
+.nav-button {
+  height: 23px;
+  padding-right: 20px;
+}
+.nav-button:hover {
+  transform: scale(1.1);
+}
+.nav-cartalog {
+  height: 20px;
+  padding-left: 20px;
+}
+.button-cart-container {
+  display: flex;
+}
+.nav-cartalog:hover {
+  transform: scale(1.1);
+}
+.hamburger {
+  height: auto;
+  width: 40px;
+  display: none;
+}
+.paragraph {
+  padding: 75.5px 15%;
+  padding-bottom: 10px;
+  background: #555;
+  color: #fff;
+}
+.drop-down-divider {
+  width: 250px;
+}
+.cartalog {
+  height: auto;
+  width: 25px;
+}
+.redeem {
+  color: #eee;
+}
+.hero-image {
+  width: 100%;
+  height: 700px;
+}
+.contains6 {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 0.5%;
+}
+.grid-img{
+  width: 100%;
+}
+.footer-background {
+  background-color: #111;
+}
+footer {
+  width: 100%;
+  background-color: #111;
+  padding: 40px 12%;
+}
+.forum {
+  display: flex;
+  flex: 2;
+}
+.descendant {
+  padding: 0px 0px 12px;
+}
+.footer-container {
+  width: 100%;
+}
+.first-list {
+  width: 100%;
+  padding: 0px 12px;
+  list-style-type: none;
+}
+.first-list1 {
+  font-size: 14px;
+  width: 70px;
+  color: #fff;
+  /* padding: 0px 0px 12px; */
+  text-decoration: none;
+}
+.first-list2 {
+  width: 100vw ;
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+.first-list2:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.second-list {
+  width: 100%;
+  /* height: 330px; */
+  padding: 0px 12px;
+  list-style-type: none;
+}
+.second-list1 {
+  width: 70px;
+  height: 30px;
+  padding: 0px 0px 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.second-list2:hover {
+  color: #fff;
+}
+.third-list {
+  width: 100%;
+  /* height: 330px; */
+  padding: 0px 12px;
+  list-style-type: none;
+}
+.third-list1 {
+  width: 70px;
+  height: 30px;
+  /* padding: 0px 0px 12px; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.third-list2:hover {
+  color: #fff;
+}
+.fourth-list {
+  width: 100%;
+  /* height: 330px; */
+  padding: 0px 12px;
+  list-style-type: none;
+}
+.fourth-list1 {
+  width: 70px;
+  height: 30px;
+  /* padding: 0px 0px 12px; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.fourth-list2:hover {
+  color: #fff;
+}
+.fifth-list {
+  width: 100%;
+  /* height: 330px; */
+  padding: 0px 12px;
+  list-style-type: none;
+}
+.fifth-list1 {
+  width: 70px;
+  height: 30px;
+  /* padding: 0px 0px 12px; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.fifth-list2 {
+  width: 28px;
+}
+.sixth-list {
+  width: 100%;
+  /* height: 330px; */
+  padding: 0px 12px;
+  list-style-type: none;
+}
+.sixth-list1 {
+  width: 193.85px;
+  font-size: 0.9em;
+  color: #44d62c;
+  white-space: nowrap;
+}
+.divider-holder {
+  width: 100%;
+  padding: 10px 12px;
+}
+.line-divider {
+  width: 100%;
+  justify-self: auto;
+}
+.onward {
+  display: flex;
+justify-content: space-between;
+}
+.bottom-content2 {
+  display: flex;
+  font-size: 12px;
+  gap: 25px;
+  list-style-type: none;
+}
+.bottom-content2 p {
+  padding-right: 30px;
+  color: #999;
+}
+.bottom-content2 hr {
+  color: #555;
+  height: 10.4px;
+}
+.bottom-content-descendant {
+  color: #999;
+  text-decoration: none;
+}
+.bottom-content-descendant:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.bottom-content3 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.bottom-content3 hr {
+  height: 10.4px;
+  color: #555;
+}
+.bottom-last {
+  color: #fff;
+  font-size: 12px;
+}
+.bottom-last1 {
+  color: #999;
+  text-decoration: none;
+  font-size: 12px;
+}
+.bottom-last1:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.escort-container {
+  position: relative;
+}
+.escort-rb {
+  display: none;
+  padding-left: 40px;
+  position: absolute;
+}
+.escort-container:hover .escort-rb {
+  display: block;
+  background-color: #555;
+}
+.famous n  {
+  display: flex;
+}
